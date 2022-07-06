@@ -43,7 +43,7 @@ RSpec.describe Hobbit do
     32.times do
       hobbit.celebrate_birthday
     end
-
+    
     expect(hobbit.adult?).to eq(false)
   end
 
